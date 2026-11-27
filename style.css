@@ -1,8 +1,8 @@
 
 .contact-card {    
-    display: inline-block;
-    max-width: 100%;              /* Prevent overflow beyond container */
-    white-space: nowrap;
+    display: block;
+    width: 100%;
+    max-width: 320px;
     padding:20px;   
 }
 
@@ -88,24 +88,23 @@ address a:hover {
 
 /* WhatsApp Style */
 .contact.whatsapp {
-    background-color: #25D366; /* WhatsApp green */
+    background-color: #16803d; /* High-contrast WhatsApp green */
 }
 
 .contact.whatsapp:hover {
-    background-color: #1da851;
+    background-color: #14532d;
     transform: scale(1.05);
 }
 
 /* Phone Style */
 .contact.phone {
-    background-color: #ff6600; /* Orange */
+    background-color: #c2410c; /* High-contrast orange */
 }
 
 .contact.phone:hover {
-    background-color: #cc5200;
+    background-color: #9a3412;
     transform: scale(1.05);
 }
-
 /* Icon Styling */
 .contact i {
     font-size: 1.2em;
