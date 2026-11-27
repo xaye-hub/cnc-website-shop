@@ -77,14 +77,13 @@ address a:hover {
 
 /* Email Style */
 .contact.email {
-    background-color: #0073e6; /* Blue */
+    background-color: #005bb5; /* High-contrast blue */
 }
 
 .contact.email:hover {
-    background-color: #005bb5;
+    background-color: #004494;
     transform: scale(1.05);
 }
-
 /* WhatsApp Style */
 .contact.whatsapp {
     background-color: #16803d; /* High-contrast WhatsApp green */
